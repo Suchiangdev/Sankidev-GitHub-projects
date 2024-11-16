@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+   
+}
+body{
+  background-image: url('forestblend.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+  
+}
+.background{
+  background-color:rgba(0,0,0,0.5);
+  color:#eee;
+  width:45vh;
+  height:130vh;
+  margin-top:100px;
+  margin-left:30px;
+  border-radius: 20px;
+  margin-right:39px;
+  padding-top:30px;
+  margin-bottom:50px;
+  font-size:2rem;
+}
+label{
+  display:flex;
+  padding-left:20px;
+  padding-top:20px;
+}
+input{
+  margin-top:5px;
+  margin-left:20px;
+}
+#dropdown{
+  margin-left:20px;
+  margin-top:5px;
+  width:200px;
+}
+#drop{
+  margin-left:20px;
+  margin-top:5px;
+  width:200px;
+  height:100px;
+}
+#submit{
+  margin-left:20px;
+  width:80%;
+  height:50px;
+  background-color: rgba(255,200,250,0.8);
+  border-radius:10px;
+  
+}
+#Name{
+  padding-top:100px;
+}
+#header{
+  padding-top:40px;
+  text-align:center;
+  font-size:2rem;
+}
+p{
+  font-style: italic;
+}
+
+
+
