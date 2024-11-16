@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=0.1">
+  <title>A survey form</title>
+  <link rel="stylesheet" href="./styles.cs.css">
+</head>
+<body>
+  <main>
+    <section id="header">
+    <h3>freeCedCamp</h3>
+    <p>Thank you for taking your time improving this platform</p>
+    </section>
+    <form id="form-register">
+      <div class="background">
+        <label id="Name">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required="">
+        <label>E-mail</label>
+      <input id="email" type="email" placeholder="Enter your email id" required="">
+        <label>Age</label>
+      <input id="age" type="number" placeholder="Enter your age" required="">
+        <label>Which one do you prefer?</label>
+          <select id="dropdown" >
+          <option>select your choice</option>
+          <option>Learning</option>
+          <option>Intermediate</option>
+          <option>Professional</option>
+        </select>
+        <label>Would you recommend freeCodeCamp to a freiend?</label>
+        <input type="radio" for="yes" name="yes" value="Yes">Yes<br>
+        
+        <input type="radio" for="yes" name="yes" value="no">No<br>
+        <label>What is your favorite feature of freeCodeCamp?</label>
+        <select id="dropdown">
+          <option>select an option</option>
+          <option>Dissipation</option>
+          <option>Algorithm</option>
+          <option>Space</option>
+        </select>
+          <label>What would you like to see improve?(Check all that apply)</label>
+        <input type="checkbox">Front-end<br>
+        <input type="checkbox">Back-end<br>
+        <input type="checkbox">VISUALISATION<br>
+        <input type="checkbox">Python<br>
+        <input type="checkbox">Videos<br>
+        <input type="checkbox">Forum<br>
+        <input type="checkbox">Applications<br>
+        <input type="checkbox">Data<br>
+        <label>Any comments or suggestions?</label>
+        <textarea id="drop" placeholder="ebter text here..."></textarea>
+        <label>
+        <button id="submit" type="submit">Submit</button></label>
+      </div>
+    </form>
+    
+  </main>
+</body>
+</html>
